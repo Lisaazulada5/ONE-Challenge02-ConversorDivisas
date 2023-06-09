@@ -1,0 +1,42 @@
+#contenedor__Padre{
+    -fx-background-color: "#0f0e17";
+}
+#lbl__title{
+    -fx-font-family: "Lucida Console";
+    -fx-text-fill: "#FFF";
+    -fx-text-alignment: center;
+    -fx-font-size: 15;
+}
+
+.text-field {
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 15;
+    -fx-text-fill: #FFF;
+    -fx-border-color: grey;
+    -fx-background-color: transparent;
+}
+.text-field:focused {
+    -fx-border-color: #FFF;
+    -fx-background-color: transparent;
+}
+
+.combo-box  {
+    -fx-font-family: "Lucida Console";
+    -fx-font-size: 11;
+    -fx-border-color: grey;
+    -fx-background-color: transparent;
+}
+.list-cell{
+    -fx-text-fill: #FFF;
+    -fx-background-color: "#0f0e17";
+
+}
+.list-view{
+}
+
+.combo-box :focused {
+    -fx-border-color: #FFF;
+    -fx-background-color: "#0f0e17";
+
+}
+

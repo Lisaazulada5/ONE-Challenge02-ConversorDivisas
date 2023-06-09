@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="contenedor__Padre" onMouseClicked="#inicializacion" onMouseDragOver="#inicializacion" prefHeight="312.0" prefWidth="576.0" stylesheets="@../css/Divisas.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.one.challenge02.controller.conversorTemperaturaController">
+   <children>
+      <AnchorPane layoutX="-2.0" prefHeight="284.0" prefWidth="210.0">
+         <children>
+            <ImageView fitHeight="312.0" fitWidth="219.0" layoutX="-3.0" layoutY="-1.0">
+               <image>
+                  <Image url="@../img/FondoTemperatura.png" />
+               </image>
+               <effect>
+                  <BoxBlur iterations="3" />
+               </effect>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="lbl__title" layoutX="283.0" layoutY="14.0" prefHeight="33.0" prefWidth="240.0" text="Conversor de Temperatura" />
+      <Button fx:id="btn_Menu" layoutX="238.0" layoutY="257.0" mnemonicParsing="false" onAction="#cambiarMenu" prefHeight="33.0" prefWidth="100.0" stylesheets="@../css/MenuPrincipal.css" />
+      <Button fx:id="btn_Divisa" layoutX="462.0" layoutY="257.0" mnemonicParsing="false" onAction="#cambiarConversorDivisa" prefHeight="33.0" prefWidth="100.0" stylesheets="@../css/MenuPrincipal.css" />
+      <ComboBox fx:id="cbxTemperaturaUno" layoutX="431.0" layoutY="81.0" prefHeight="45.0" prefWidth="131.0" />
+      <TextField fx:id="txtTemperaturaUno" alignment="CENTER" layoutX="227.0" layoutY="81.0" prefHeight="45.0" prefWidth="176.0" />
+      <TextField fx:id="txtTemperaturaDos" alignment="CENTER" layoutX="227.0" layoutY="171.0" prefHeight="45.0" prefWidth="176.0" />
+      <ComboBox fx:id="cbxTemperaturaDos" layoutX="431.0" layoutY="171.0" prefHeight="45.0" prefWidth="131.0" />
+      <FontAwesomeIconView  fill="WHITE" glyphName="HOME" layoutX="276.0" layoutY="282.0" size="25" />
+      <FontAwesomeIconView  fill="WHITE" glyphName="MONEY" layoutX="499.0" layoutY="282.0" size="25" />
+      
+   </children>
+</AnchorPane>

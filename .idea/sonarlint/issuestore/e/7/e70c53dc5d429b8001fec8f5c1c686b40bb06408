@@ -1,0 +1,43 @@
+
+c
+java:S1192%"HDefine a constant instead of duplicating this literal "CELCIUS" 4 times.(†úüàùÿÿÿÿ
+a
+java:S1192'"KDefine a constant instead of duplicating this literal "FAHRENHEIT" 4 times.(¤¸ÃÀ
+b
+java:S1192%"GDefine a constant instead of duplicating this literal "KELVIN" 4 times.(†úüàùÿÿÿÿ
+W
+java:S4973#"<Strings and Boxed types should be compared using "equals()".(‚æğ±üÿÿÿÿ
+W
+java:S4973%"<Strings and Boxed types should be compared using "equals()".(†úüàùÿÿÿÿ
+W
+java:S4973%"<Strings and Boxed types should be compared using "equals()".(†úüàùÿÿÿÿ
+R
+java:S4973'"<Strings and Boxed types should be compared using "equals()".(¤¸ÃÀ
+R
+java:S4973'"<Strings and Boxed types should be compared using "equals()".(¤¸ÃÀ
+R
+java:S4973)"<Strings and Boxed types should be compared using "equals()".(èë¹
+R
+java:S4973)"<Strings and Boxed types should be compared using "equals()".(èë¹
+R
+java:S4973+"<Strings and Boxed types should be compared using "equals()".(Ûßî®
+R
+java:S4973+"<Strings and Boxed types should be compared using "equals()".(Ûßî®
+R
+java:S4973-"<Strings and Boxed types should be compared using "equals()".(Ğèî
+R
+java:S4973-"<Strings and Boxed types should be compared using "equals()".(Ğèî
+W
+java:S4973/"<Strings and Boxed types should be compared using "equals()".(Ëõùÿÿÿÿ
+W
+java:S4973/"<Strings and Boxed types should be compared using "equals()".(Ëõùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íëşÀşÿÿÿÿ
+g
+java:S1223!"LRename this method to prevent any misunderstanding or make it a constructor.(¨…Âˆşÿÿÿÿ
+{
+java:S4165"eRemove this useless assignment; "numTemp" already holds the assigned value along all execution paths.(ÿşá¡
+Q
+java:S1854";Remove this useless assignment to local variable "numTemp".(ÿşá¡
+E
+java:S1656"/Remove or correct this useless self-assignment.(ÿşá¡
+h	java:S100!"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨…Âˆşÿÿÿÿ

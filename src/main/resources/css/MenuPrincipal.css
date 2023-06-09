@@ -1,0 +1,92 @@
+
+#contenedor__padre{
+    -fx-background-color: "#051933";
+}
+
+#menu__title{
+    -fx-font-family: "Inconsolata";
+    -fx-text-fill: "#FFF";
+    -fx-text-alignment: center;
+    -fx-font-size: 30;
+}
+#menu__footer{
+    -fx-font-family: "Inconsolata";
+    -fx-font-size: 12;
+    -fx-text-fill: "#f25f4c";
+}
+.label{
+    -fx-font-family: "Inconsolata";
+    -fx-font-size: 18;
+    -fx-text-fill: "#181A1B";
+}
+
+.label: hover{
+    -fx-text-fill: -icons-color-hover;
+        -fx-fill: -icons-color-hover;
+        -fx-effect: dropshadow(three-pass-box,
+                            rgba(156,115,241,0.6), 10, 0, 0, 0);
+
+}
+.root{
+    -icons-color: #10293F;
+    -icons-color-hover: #00DFA2;
+}
+.glyph-icon{
+    -fx-text-fill: -icons-color;
+    -fx-fill: -icons-color;
+}
+
+.glyph-icon:hover{
+    -fx-text-fill: -icons-color-hover;
+    -fx-fill: -icons-color-hover;
+    -fx-effect: dropshadow(three-pass-box,
+                        rgba(156,115,241,0.6), 10, 0, 0, 0);
+}
+
+.button {
+    -fx-padding: 5 22 5 22;
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #1d1d1d;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #3a3a3a;
+}
+
+.button:pressed, .button:default:hover:pressed {
+    -fx-background-color: white;
+    -fx-text-fill: #1d1d1d;
+}
+
+.button:focused {
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}
+
+
+
+

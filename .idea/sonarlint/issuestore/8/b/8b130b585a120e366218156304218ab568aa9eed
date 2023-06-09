@@ -1,0 +1,9 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(şÜ°ù
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õñë®
+w
+java:S1488$"\Immediately return this expression instead of assigning it to the temporary variable "json".(‡ÆÃİùÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÜ°ù
+h	java:S100)"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Â™êÔøÿÿÿÿ
+M
+java:S11356"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿ
